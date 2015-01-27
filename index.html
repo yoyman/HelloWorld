@@ -1,1 +1,64 @@
-This is the webpage for hello world.
+
+<!--
+<FORM METHOD="LINK" ACTION="menu.html">
+ <INPUT TYPE="submit" VALUE="Clickable Button">
+ </FORM>
+    
+<FORM>
+ <INPUT TYPE="button" VALUE="JS button" onClick="parent.location='menu.html'">
+ </FORM>
+    
+-->
+
+<body bgcolor="#A0CE4E">
+</body>
+ 
+    <!--
+<section class="loginform cf">  
+<form name="login" action="index_submit" method="get" accept-charset="utf-8">  
+    <ul>  
+        <li><label for="usermail">Email</label>  
+        <input type="email" name="usermail" placeholder="yourname@email.com" required></li>  
+        <li><label for="password">Password</label>  
+        <input type="password" name="password" placeholder="password" required></li>  
+        <li>  
+        <input type="submit" value="Login"></li>  
+    </ul>  
+</form>  
+</section> 
+
+_-->
+<form  action="login.php" autocomplete="on" method="post"> 
+     <h1>Log in</h1> 
+     <p> 
+          <label for="username" class="uname" data-icon="u" >Username:</label>
+          <input id="username" name="username" required="required" type="text" placeholder="Username"/>
+     </p>
+     <p> 
+          <label for="password" class="youpasswd" data-icon="p">Password:</label>
+          <input id="password" name="password" required="required" type="password" placeholder="Password" /> 
+     </p>
+     <p class="keeplogin"> 
+          <input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+          <label for="loginkeeping">Keep me logged in</label>
+     </p>
+     <p class="login button"> 
+          <!--<input type="submit" value="Login" onClick="menu.html"/> -->
+     </p>
+</form>
+
+<FORM>
+ <INPUT TYPE="button" VALUE="Log in" onClick="parent.location='menu.html'">
+ </FORM>
+
+    <FORM><h1>Register</h1> 
+        <p>
+        <INPUT TYPE="button" VALUE="Register" onClick="parent.location='register.html'">
+        </p>
+    
+    </FORM>
+
+
+    
+    
+
