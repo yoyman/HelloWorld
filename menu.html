@@ -1,10 +1,25 @@
 
-<body bgcolor="#A0CE4E">
-</body>
+<body bgcolor="#A0CE4E"></body>
 
-<h1>Menu</h1>
+
+
+
 
 <FORM> 
+    
+    
+    <h1>Menu</h1>
+    
+<script type="text/javascript">
+    var nameofuser = localStorage.getItem('nameofuser');
+    
+    document.write("<h2> Hello " + nameofuser + "</h2>"); 
+    document.write("something");
+    
+    
+</script>
+    
+        
         <p>
         <INPUT TYPE="button" VALUE="Today's List" onClick="parent.location='menu.html'">
         </p>
@@ -14,6 +29,8 @@
         <p>
         <INPUT TYPE="button" VALUE="Get Started" onClick="parent.location='menu.html'">
         </p>
+            
+    
     </FORM>
 
 
